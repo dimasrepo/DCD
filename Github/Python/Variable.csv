@@ -1,0 +1,40 @@
+Variable,Data Type,Role,Description,Example
+order_fe_status,String,Status,Status dari pemesanan pada platform,"TO_RECEIVE, CANCELLED, COMPLETED, TO_SHIP"
+order_logistics_status,String,Logistics Status,Status logistik dari pengiriman,"PICKUP DONE, READY, DELIVERY FAILED, NOT STARTED"
+actual_shipping_carrier,String,Shipping Carrier,Nama perusahaan pengiriman yang digunakan,"J&T Express, Shopee Xpress Standard, Anteraja"
+fulfilment_channel_id,Integer,Fulfillment Channel,ID dari saluran pemenuhan,"80014, 80026, 80029, 80030"
+fulfilment_shipping_carrier,String,Fulfillment Carrier,Nama carrier untuk pemenuhan,"J&T Economy, SiCepat REG, Indopaket"
+payment_channel,String,Payment Method,Metode pembayaran yang digunakan,"COD (Bayar di Tempat), ShopeePay, Bank BCA"
+pv_voucher_code,String,Voucher Code,Kode voucher untuk promosi atau diskon,"TSEL30B5F4UVKGR, WLCM10030X21FEB, SPLNUZAPR1"
+pv_voucher_activity_name,String,Voucher Activity Name,Nama aktivitas terkait voucher,"MPRNNONB_Telkomsel_Regular_100%, MACQWELCOMEDDSP_NewUserZone"
+buyer_status,String,Buyer Status,Status dari pembeli di platform,"Normal, Frozen, Banned, Delete"
+order_id,Numeric,Identifier,ID unik untuk setiap pesanan,1.03E+14
+checkout_id,Numeric,Identifier,ID unik untuk setiap transaksi checkout,1.03E+14
+order_sn,Text,Identifier,Nomor urut pesanan untuk identifikasi,2204119UVCSAT4
+shipping_traceno,Text,Identifier,Nomor pelacakan untuk pengiriman,ID2242259489325
+grand_total,Numeric,Measurement,Total biaya yang harus dibayar oleh pembeli,173
+cogs,Numeric,Measurement,Biaya barang yang dijual,30173
+shop_id,Numeric,Identifier,ID unik untuk setiap toko,295565923
+specific_purchased_time,DateTime,Timestamp,Waktu spesifik saat pembelian dilakukan,4/11/2022 8:19
+Device_ID,Text,Identifier,ID perangkat yang digunakan oleh pembeli,002D879FC1BC7AD8887F60DF8E785FC40068807D3C65BAC876F80DE72D6A3232
+shopee_voucher_rebate,Numeric,Financial,Jumlah rebate yang diperoleh dari voucher Shopee,30000
+coin_earn,Numeric,Financial,Jumlah koin yang diperoleh dari pembelian,0
+Username_Buyer,Text,Information,Nama pengguna pembeli,sofiyatul_aeni
+Username_Seller,Text,Information,Nama pengguna penjual,19999.id
+Buyer_User_ID,Numeric,Identifier,ID unik untuk pengguna pembeli,734441501
+Seller_User_ID,Numeric,Identifier,ID unik untuk pengguna penjual,295585276
+recipient_phone,Text,Information,Nomor telepon penerima,6.28E+12
+recipient_name,Text,Information,Nama penerima paket,Sofi yatul Aeni
+shipping_address,Text,Information,Alamat lengkap pengiriman,"Kp Bugel Hilir, Jalan Kp Bugel Hilir, RT.1/RW.2, Bugel, Ciawi (Sdn 2 gombong)"
+shipping_city,Text,Information,Kota pengiriman,KAB. TASIKMALAYA
+zip_code,Text,Information,Kode pos untuk alamat pengiriman,46156
+seller_longitude,Numeric,Geographic,Garis bujur lokasi penjual,114
+seller_latitude,Numeric,Geographic,Garis lintang lokasi penjual,23
+buyer_longitude,Numeric,Geographic,Garis bujur lokasi pembeli,108
+buyer_latitude,Numeric,Geographic,Garis lintang lokasi pembeli,-7
+sender_user_id,Numeric,Identifier,ID pengguna yang mengirimkan,6.28E+12
+hashed_ba,Text,Identifier,Hash dari informasi pengguna yang terkait,'1513084737772565740
+registration_phone_number,Text,Information,Nomor telepon yang terdaftar,'1513084737772565740
+SZ,Text,Information,Kode lokasi atau zona tertentu,KAB. TASIKMALAYA
+Group,Numeric,Identifier,ID grup yang berkaitan dengan pesanan,1
+Count If,Numeric,Measurement,Hitung jumlah berdasarkan kriteria tertentu,1
